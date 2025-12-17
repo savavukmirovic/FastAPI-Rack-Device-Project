@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-rack-device-project"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.0",
+    "fastapi>=0.124.4",
+    "httpx>=0.28.1",
+    "pytest>=9.0.2",
+    "python-dotenv>=1.2.1",
+    "uvicorn[standard]>=0.38.0",
+]
