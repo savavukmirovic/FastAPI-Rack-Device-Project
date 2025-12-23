@@ -3,7 +3,7 @@
 
 - For database is used SQLite with sqlalchemy ORM
 - Whole application is in src directory
-- To run this application you can run: docker compose up
+- To run this application you can run: docker compose up (or: docker compose up --build)
 - Other way to run this application you can run: docker build -t fastapi-app
 and after that you can run: docker run fastapi-app
 
