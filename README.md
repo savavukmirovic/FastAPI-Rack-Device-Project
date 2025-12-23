@@ -10,6 +10,7 @@ and after that you can run: docker run fastapi-app
 - Third way to run this application is to use this in terminal: uv run ./main.py
 
 - Swagger documentation can be found on: http://0.0.0.0:8000/docs
+- Docker image can be found here: https://hub.docker.com/r/savavukmirovic/fastapi-app-project
 
 
 One rack db object looks like this, where rack units must be inserted as Text value "48U" and max_power_capacity_watts like "5000W" text value:
@@ -29,6 +30,3 @@ One device object should look like this where power_consumption_watts must be wr
 <img width="1122" height="595" alt="Screenshot from 2025-12-23 13-34-16" src="https://github.com/user-attachments/assets/79e35805-f88d-4b18-b234-d4d4ab05bd59" />
 <img width="1031" height="455" alt="Screenshot from 2025-12-23 13-34-39" src="https://github.com/user-attachments/assets/2bed7dae-b03a-47c1-946e-ddeebb291588" />
 
-
-
-Docker image can be found here: https://hub.docker.com/r/savavukmirovic/fastapi-app-project
