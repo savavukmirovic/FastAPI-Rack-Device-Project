@@ -17,7 +17,7 @@ jobs:
     - name: Set up Python with uv
       uses: actions/setup-python@v5
       with:
-        python-version: '3.14.2' # Choose your Python version
+        python-version: '3.14.2'
         cache: 'uv' # Leverage uv's smart caching
 
     - name: Install dependencies with uv
