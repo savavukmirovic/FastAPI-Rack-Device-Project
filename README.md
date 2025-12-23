@@ -21,7 +21,7 @@ One device object should look like this where power_consumption_watts must be wr
 <img width="320" height="252" alt="Screenshot from 2025-12-23 02-16-09" src="https://github.com/user-attachments/assets/13362188-5dac-4f9b-b797-491c28333487" />
 
 ### Algorithm for allocation of racks and devices 
-- To run algorithm for allocation racks and devices after creating them inside database (using CRUD operations for example) you can go to http://0.0.0.0:8000/devicerackallocation and put device and racks serial numbers together with comma as parameters (do not separate them with space, comma is the only separator) which are primary keys inside database.
+- To run algorithm for allocation racks and devices after creating them inside database (using CRUD operations for example) you can go to http://0.0.0.0:8000/devicerackallocation and put device and racks serial numbers (which are primary keys inside database) together with comma as separator (do not separate them with space, comma is the only separator).
 - Example racks serial numbers provided:rack1A,rack2b
 - Example devices serial numbers provided:device123,device1A,device3b
 - One request example: http://0.0.0.0:8000/devicerackallocation?devices_serials_numbers=device123%2Cdevice1A%2Cdevice3b&racks_serials_numbers=rack1A%2Crack2b
