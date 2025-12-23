@@ -31,8 +31,4 @@ One device object should look like this where power_consumption_watts must be wr
 
 
 
-
-
-
-
-Docker image can be found here: https://hub.docker.com/r/savavukmirovic/fastapi
+Docker image can be found here: https://hub.docker.com/r/savavukmirovic/fastapi-app-project
