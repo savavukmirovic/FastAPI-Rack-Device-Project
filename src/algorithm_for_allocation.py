@@ -56,5 +56,5 @@ def distribute_devices(devices, racks):
         output_dict[rack.serial_number] = {'devices': devices_in_rack,
                                            'rackUnitsUsed': rack_units_used,
                                            'rackUsedPower': rack_used_power,
-                                           'rackUsedPowerPercent': rack_used_power_percent}
+                                           'rackUsedPowerPercentage': rack_used_power_percent}
     return output_dict
