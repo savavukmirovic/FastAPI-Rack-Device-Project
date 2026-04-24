@@ -1,6 +1,7 @@
 services:
   server:
     build: .
+    image: fastapi-app-project
     ports:
       - 8000:8000
     volumes:
